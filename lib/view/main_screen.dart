@@ -54,11 +54,13 @@ class _MainScreenState extends State<MainScreen> {
                 children: state.subways.map((e) {
                   return Padding(
                     padding: const EdgeInsets.only(left: 8.0, right: 8),
-                    child: ListTile(
-                      title: Text(e.station),
-                      subtitle: Text(e.platform),
-                      leading: Text(e.direction),
-                      trailing: Text(e.arrivalInfo),
+                    child: Card(
+                      child: ListTile(
+                        title: Text(e.station, style: TextStyle(fontWeight: FontWeight.bold)),
+                        subtitle: Text(e.platform),
+                        leading: Text(e.direction),
+                        trailing: Text(e.arrivalInfo),
+                      ),
                     ),
                   );
                 }).toList(),
