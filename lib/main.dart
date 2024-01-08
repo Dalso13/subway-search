@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:subway_search/ui/main_screen.dart';
 import 'package:provider/provider.dart';
 import 'di/di.dart';
-import 'view_model/main_view_model.dart';
+import 'view/main_screen.dart';
+import 'view/view_model/main_view_model.dart';
 
 void main() {
   runApp(const MyApp());

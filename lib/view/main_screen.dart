@@ -1,10 +1,6 @@
-import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import '../data/api/subway_api.dart';
-import '../data/repository/subway_repository_impl.dart';
-import '../view_model/main_view_model.dart';
+import 'view_model/main_view_model.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});

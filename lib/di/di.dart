@@ -1,9 +1,9 @@
 import 'package:get_it/get_it.dart';
 import 'package:subway_search/data/api/subway_api.dart';
-import 'package:subway_search/view_model/main_view_model.dart';
 
 import '../data/repository/subway_repository.dart';
 import '../data/repository/subway_repository_impl.dart';
+import '../view/view_model/main_view_model.dart';
 
 final getIt = GetIt.instance;
 
